@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: './', // Базовый путь для всех статических файлов
+  base: '/', // Базовый путь для всех статических файлов
   plugins: [react()], // Плагины, используемые в проекте
   build: {
     rollupOptions: {

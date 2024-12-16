@@ -1,5 +1,5 @@
 [build]
-  publish = "."
+  publish = "dist"
   command = "npm run build" # Укажите, если используете сборку (например, с Vite или React)
 
 [[redirects]]
