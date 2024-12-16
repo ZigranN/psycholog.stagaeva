@@ -1,16 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/', // Базовый путь для всех статических файлов
-  plugins: [react()], // Плагины, используемые в проекте
+  base: './',
+  publicDir: 'public',// Укажите относительный путь
   build: {
     rollupOptions: {
-      input: {
-        main: './index.html', // Входная точка для сборки
-      },
+      input: './index.html', // Укажите основной входной файл
     },
-    assetsInlineLimit: 0, // Предотвращает инлайнинг изображений в Base64
-    outDir: 'dist', // Каталог для сборки
   },
 });
