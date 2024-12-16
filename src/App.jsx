@@ -1,11 +1,8 @@
-import image1 from './assets/images/mainST.jpg';
-import image2 from './assets/images/5.jpg';
-import image3 from './assets/images/4.jpg';
 
 function App() {
 
   return (
-      <>
+      <div id="root">
           <header className="header">
               <div className="container">
                   <div className="header__left">
@@ -41,7 +38,7 @@ function App() {
                   <a href="#about" className="dropdown-link">Обо мне</a>
                   <a href="#methods" className="dropdown-link">Методы</a>
                   <a href="#reviews" className="dropdown-link">Отзывы</a>
-                  <a href="tel:+996555222289" className="dropdown-link">Позвонить: (+996) 555 22 22 89</a>
+                  <a href="tel:+77019995898" className="dropdown-link">Позвонить: (+996) 555 22 22 98</a>
               </div>
           </header>
           <main className="main main t396__elem">
@@ -61,7 +58,7 @@ function App() {
                       </p>
                   </div>
                   <div className="shape shape-right">
-                      <img src={image1} alt="Салтанат Тагаева"/>
+                      <img src="/src/assets/images/mainST.jpg" alt="Салтанат Тагаева"/>
                   </div>
               </div>
           </main>
@@ -83,7 +80,7 @@ function App() {
                   </div>
 
                   <div className="about__image">
-                      <img src={image2} alt="Салтанат"/>
+                      <img src="/src/assets/images/5.jpg" alt="Салтанат"/>
                   </div>
                   <div className="about__methods">
                       <h3>Моя основа в работе </h3>
@@ -271,7 +268,7 @@ function App() {
           <section className="appointment">
               <div className="appointment__container">
                   <div className="appointment__image">
-                      <img src={image3} alt="Салтанат"/>
+                      <img src="/src/assets/images/4.jpg" alt="Салтанат"/>
                   </div>
 
                   <div className="appointment__form">
@@ -318,7 +315,7 @@ function App() {
                   <p className="footer__text">Made by Nargiz Mamytova 2024</p>
               </div>
           </footer>
-      </>
+      </div>
   )
 }
 
