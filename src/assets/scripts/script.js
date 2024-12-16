@@ -1,4 +1,14 @@
-    const toggleNav = () => {
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('modal');
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+    }
+});
+const toggleNav = () => {
     const dropdown = document.getElementById('dropdown');
     dropdown.classList.toggle('show');
 };
