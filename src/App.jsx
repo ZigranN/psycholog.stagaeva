@@ -2,7 +2,7 @@
 function App() {
 
   return (
-      <div id="root">
+      <>
           <header className="header">
               <div className="container">
                   <div className="header__left">
@@ -58,7 +58,7 @@ function App() {
                       </p>
                   </div>
                   <div className="shape shape-right">
-                      <img src="/src/assets/images/mainST.jpg" alt="Салтанат Тагаева"/>
+                      <img src="assets/images/mainST.jpg" alt="Салтанат Тагаева"/>
                   </div>
               </div>
           </main>
@@ -80,7 +80,7 @@ function App() {
                   </div>
 
                   <div className="about__image">
-                      <img src="/src/assets/images/5.jpg" alt="Салтанат"/>
+                      <img src="assets/images/5.jpg" alt="Салтанат"/>
                   </div>
                   <div className="about__methods">
                       <h3>Моя основа в работе </h3>
@@ -268,7 +268,7 @@ function App() {
           <section className="appointment">
               <div className="appointment__container">
                   <div className="appointment__image">
-                      <img src="/src/assets/images/4.jpg" alt="Салтанат"/>
+                      <img src="assets/images/4.jpg" alt="Салтанат"/>
                   </div>
 
                   <div className="appointment__form">
@@ -315,7 +315,7 @@ function App() {
                   <p className="footer__text">Made by Nargiz Mamytova 2024</p>
               </div>
           </footer>
-      </div>
+      </>
   )
 }
 
